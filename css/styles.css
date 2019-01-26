@@ -63,6 +63,10 @@ body {
   font-style: normal;
 }
 
+.character {
+  font-style: normal;
+}
+
 .year:before {
   content: ", ";
   font-style: normal;
@@ -83,7 +87,8 @@ body {
   transition: .5s ;
 }
 #loadQuote:hover {
-  background-color: rgba(255,255,255,.25);
+  /*background-color: rgba(255,255,255,.25);*/
+  filter: brightness(130%);
 }
 
 #loadQuote:focus {

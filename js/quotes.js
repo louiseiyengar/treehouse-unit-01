@@ -1,122 +1,122 @@
-quotes = 
+const quotes = 
 [
     {
         quote: "I never travel without my diary. One should always have something sensational to read in the train.",
-        source: "The Importance of Being Ernest",
-        author: "Oscar Wilde",
-        character: "Hon. Gwendolen Fairfax",
-        date: "1898"
+        source: "Oscar Wilde",
+        citation: "The Importance of Being Ernest",
+        year: "1898",
+        character: "Hon. Gwendolen Fairfax"
     },
     {
         quote: "When I was young I thought that money was the most important thing in life; now that I am old I know that it is.",
-        source: "",
-        author: "Oscar Wilde",
-        character: "",
-        date: ""
+        source: "Oscar Wilde",
+        citation: "",
+        year: "",
+        character: ""
     },
     {
         quote: "Be yourself; everyone else is already taken.",
-        source: "",
-        author: "Oscar Wilde",
-        character: "",
-        date: ""
+        source: "Oscar Wilde",
+        citation: "",
+        year: "",
+        character: ""
     },
     {
         quote: "I can resist anything except temptation.",
-        source: "Lady Windermere's Fan",
-        author: "Oscar Wilde",
-        character: "Lord Darlington",
-        date: "1892"
+        source: "Oscar Wilde",
+        citation: "Lady Windermere's Fan",
+        year: "1892",
+        character: "Lord Darlington"
     },
     {
         quote: "Nowadays people know the price of everything and the value of nothing.",
-        source: "The Picture of Dorian Gray",
-        author: "Oscar Wilde",
-        character: "Lord Henry Wotton",
-        date: "1890"
+        source: "Oscar Wilde",
+        citation: "The Picture of Dorian Gray",
+        year: "1890",
+        character: "Lord Henry Wotton"
     },
     {
         quote: "It is absurd to divide people into good and bad. People are either charming or tedious.",
-        source: "Lady Windermere's Fan",
-        author: "Oscar Wilde",
-        character: "Lord Darlington",
-        date: "1892"
+        source: "Oscar Wilde",
+        citation: "Lady Windermere's Fan",
+        year: "1892",
+        character: "Lord Darlington"
     },
     {
         quote: "No good deed goes unpunished.",
-        source: "",
-        author: "Oscar Wilde",
-        character: "",
-        date: ""
+        source: "Oscar Wilde",
+        citation: "",
+        year: "",
+        character: ""
     },
     {
         quote: "If the law supposes that, the law is a ass — a idiot.",
-        source: "Oliver Twist",
-        author: "Charles Dickens",
-        character: "Mr. Bumble",
-        date: "1837"
+        source: "Charles Dickens",
+        citation: "Oliver Twist",
+        year: "1837",
+        character: "Mr. Bumble"
     },
     {
         quote: "There are books of which the backs and covers are by far the best parts.",
-        source: "Oliver Twist",
-        author: "Charles Dickens",
-        character: "Mr. Brownlow",
-        date: "1837"
+        source: "Charles Dickens",
+        citation: "Oliver Twist",
+        year: "1837",
+        character: "Mr. Brownlow"
     },
     {
         quote: "What greater gift than the love of a cat.",
-        source: "",
-        author: "Charles Dickens",
-        character: "",
-        date: ""
+        source: "Charles Dickens",
+        citation: "",
+        year: "",
+        character: ""
     },
     {
         quote: "Procrastination is the thief of time, collar him.",
-        source: "David Copperfield",
-        author: "Charles Dickens",
-        character: "Mr. Micawber",
-        date: "1849"
+        source: "Charles Dickens",
+        citation: "David Copperfield",
+        year: "1849",
+        character: "Mr. Micawber"
     },
     {
         quote: "Ask no questions, and you'll be told no lies.",
-        source: "Great Expectations",
-        author: "Charles Dickens",
-        character: "Mrs Joe Gargery",
-        date: "1860"
+        source: "Charles Dickens",
+        citation: "Great Expectations",
+        year: "1860",
+        character: "Mrs. Joe Gargery"
     },
     {
         quote: "I have not the pleasure of understanding you.",
-        source: "Pride and Prejudice",
-        author: "Jane Austen",
-        character: "Mr. Bennet",
-        date: "1797"
+        source: "Jane Austen",
+        citation: "Pride and Prejudice",
+        year: "1797",
+        character: "Mr. Bennet"
     },
     {
         quote: "Laugh as much as you choose, but you will not laugh me out of my opinion.",
-        source: "Pride and Prejudice",
-        author: "Jane Austen",
-        character: "Jane Bennet",
-        date: "1797"
+        source: "Jane Austen",
+        citation: "Pride and Prejudice",
+        year: "1797",
+        character: "Jane Bennet"
     },
     {
         quote: "Friendship is certainly the finest balm for the pangs of disappointed love.",
-        source: "",
-        author: "Jane Austen",
-        character: "",
-        date: ""
+        source: "Jane Austen",
+        citation: "",
+        year: "",
+        character: ""
     },
     {
         quote: "Nothing ever fatigues me, but doing what I do not like.",
-        source: "",
-        author: "Jane Austen",
-        character: "",
-        date: ""
+        source: "Jane Austen",
+        citation: "",
+        year: "",
+        character: ""
     },
     {
         quote: "I always deserve the best treatment because I never put up with any other.",
-        source: "Emma",
-        author: "Jane Austen",
-        character: "Emma Woodhouse",
-        date: "1815"
+        source: "Jane Austen",
+        citation: "Emma",
+        year: "1815",
+        character: "Emma Woodhouse"
     }
 ];

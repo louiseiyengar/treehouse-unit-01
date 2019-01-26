@@ -15,6 +15,10 @@ FSJS project 1 - A Random Quote Generator
     - Add at least one `year` and/or `citation` property to at least one 
       quote object.
 ***/
+const backgroundColors = [
+  "#006600", "#003300", "#660033", "#4d807e", "#4f804d", "#cc3300", 
+  "#333333", "#003366", "#006666", "#660022", "#802000", "#444422"
+];
 
 
 
@@ -25,9 +29,16 @@ FSJS project 1 - A Random Quote Generator
    - use the random number to `return` a random quote object from the 
      `quotes` array.
 ***/
+function getRandomQuote(quotesArray) {
+  let randomIndex = Math.floor(Math.random() * quotesArray.length); 
+  return (quotesArray[randomIndex]);
+}
 
-
-
+function changeBackgroundColor() {
+  let backgroundColor = getRandomQuote(backgroundColors);
+  document.body.style.backgroundColor = backgroundColor;
+  document.getElementById("loadQuote").style.backgroundColor = backgroundColor;
+}
 
 /***
   Create the `printQuote` function to: 
@@ -38,9 +49,35 @@ FSJS project 1 - A Random Quote Generator
      they are added to the HTML string.
    - set the `innerHTML` of the `quote-box` div to the HTML string. 
 ***/
+function printQuote() {
+  changeBackgroundColor();
+  //get quote
+  let currentQuote = getRandomQuote(quotes);
 
 
+  let htmlString = `<p class="quote">${currentQuote.quote}</p>`;
 
+  htmlString += `<p class="source">${currentQuote.source}`;
+
+  if (currentQuote.citation !== "") {
+    htmlString += `<span class="citation">${currentQuote.citation}`;
+    if (currentQuote.character !== "") {
+      htmlString += `<span class="character"> (${currentQuote.character})</span>`;
+    } 
+    htmlString == `</span>`;
+  }
+
+  if (currentQuote.year !== "") {
+    htmlString += `<span class="year">${currentQuote.year}</span>`;
+  }
+
+  htmlString += `</p>`;
+
+  document.getElementById("quote-box").innerHTML = htmlString;
+}
+
+
+printQuote();
 
 /***
   When the "Show another quote" button is clicked, the event listener 
@@ -50,6 +87,5 @@ FSJS project 1 - A Random Quote Generator
 ***/
 
 document.getElementById('loadQuote').addEventListener("click", printQuote, false);
-
 
 // Remember to delete the comments that came with this file, and replace them with your own code comments.
