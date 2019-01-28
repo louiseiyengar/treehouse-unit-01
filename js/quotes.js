@@ -50,6 +50,13 @@ const quotes =
         character: ""
     },
     {
+        quote: "I am afraid that there is not much to be said in favour of either the lawyer or the journalist.",
+        source: "Oscar Wilde",
+        citation: "Beautiful and Impossible Things - Selected Essays of Oscar Wilde",
+        year: "2017",
+        character: ""
+    },
+    {
         quote: "If the law supposes that, the law is a ass — a idiot.",
         source: "Charles Dickens",
         citation: "Oliver Twist",

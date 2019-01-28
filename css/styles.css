@@ -72,6 +72,13 @@ body {
   font-style: normal;
 }
 
+.portrait {
+  margin: 5px; 
+  border-radius: 50%; 
+  border: 2px solid white; 
+  vertical-align: middle;
+}
+
 #loadQuote {
   position: fixed;
   width: 12em;
